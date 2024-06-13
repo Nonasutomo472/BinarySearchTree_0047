@@ -7,4 +7,10 @@ public:
     string info;
     Node* leftchild;
     Node* rightchild;    
+
+    Node(string element, Node* left, Node* right) {
+        info = element;
+        leftchild = left;
+        rightchild = right;
+    }
 };
