@@ -112,5 +112,13 @@ int main() {
         case '5': {
             return 0;
         }
+        default: {
+            cout << "Invalid choice! Please enter a number between 1 and 5." << endl;
+            break;
+        }
+        }
+    }
+    return 0;
+}
 
     
