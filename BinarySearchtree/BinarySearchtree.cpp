@@ -67,3 +67,13 @@ public:
             preorder(ptr->rightchild);
         }
     }
+    if (ptr != nullptr) {
+        postorder(ptr->leftchild);
+        postorder(ptr->rightchild);
+        cout << ptr->info << " ";
+    }
+}
+};
+
+
+    
